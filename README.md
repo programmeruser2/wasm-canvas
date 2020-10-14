@@ -1,7 +1,7 @@
 # wasm-canvas
 A simple example of calling JavaScript functions from C.
 
-# Imports Object
+### Imports Object
 ```
 const canvas = //... HTMLElement representing a canvas
 const ctx = //...Canvas2DRenderingContext
