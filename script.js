@@ -6,7 +6,7 @@ WebAssembly.instantiateStreaming(fetch('main.wasm'), {
     getCanvasHeight: function() { return canvas.height; },
     jsSetInterval: function(callback, interval) {
       setInterval(function() {
-        wasmInstance.exports.runCallback(callback);
+        instance.exports.runCallback(callback);
       },interval);
     },
     jsFillRect: function(x,y,w,h) {
