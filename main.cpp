@@ -1,4 +1,4 @@
-extern void jsSetInterval(void (*callback)(), float interval);
+extern void jsSetInterval(void (*callback)(void), float interval);
 extern void jsFillRect(int x, int y, int w, int h);
 extern void jsClearRect(int x, int y, int w, int h);
 extern int canvasWidth;
