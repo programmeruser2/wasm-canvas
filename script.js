@@ -5,8 +5,8 @@ const wasmModule = new WebAssembly.Module(wasmCode);
 console.log(WebAssembly.Module.imports(wasmModule)[3])
 const wasmInstance = new WebAssembly.Instance(wasmModule, {
   env: {
-    canvasWidth: canvas.width,
-    canvasHeight: canvas.height,
+    getCanvasWidth: function() { return canvas.width; },
+    canvasHeight: function() { return canvas.height; },
     jsSetInterval: function(callback, interval) {
       setInterval(function() {
         wasmInstance.exports.runCallback(callback);
