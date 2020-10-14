@@ -17,6 +17,7 @@ WebAssembly.instantiateStreaming(fetch('main.wasm'), {
     }
   }
 }).then(instance => {
+  console.log(instance)
   instance.exports.main();
 });
 
