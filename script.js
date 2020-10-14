@@ -16,8 +16,8 @@ WebAssembly.instantiateStreaming(fetch('main.wasm'), {
       ctx.clearRect(x,y,w,h);
     }
   }
-}).then(instance => {
-  console.log(instance)
+}).then(result => {
+  const instance = result.instance;
   instance.exports.main();
 });
 
