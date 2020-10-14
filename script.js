@@ -1,5 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
+let instance;
 WebAssembly.instantiateStreaming(fetch('main.wasm'), {
   env: {
     getCanvasWidth: function() { return canvas.width; },
@@ -17,7 +18,7 @@ WebAssembly.instantiateStreaming(fetch('main.wasm'), {
     }
   }
 }).then(result => {
-  const instance = result.instance;
+  instance = result.instance;
   instance.exports.main();
 });
 
