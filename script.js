@@ -2,7 +2,7 @@ var wasmCode = new Uint8Array([0,97,115,109,1,0,0,0,1,24,5,96,0,0,96,4,127,127,1
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const wasmModule = new WebAssembly.Module(wasmCode);
-console.log(WebAssembly.Module.imports(wasmModule)[3])
+console.log(WebAssembly.Module.imports(wasmModule)[4])
 const wasmInstance = new WebAssembly.Instance(wasmModule, {
   env: {
     getCanvasWidth: function() { return canvas.width; },
