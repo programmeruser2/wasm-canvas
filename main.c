@@ -1,8 +1,10 @@
+//imports
 extern void jsSetInterval(void (*callback)(void), float interval);
 extern void jsFillRect(int x, int y, int w, int h);
 extern void jsClearRect(int x, int y, int w, int h);
 extern int getCanvasWidth(void);
 extern int getCanvasHeight(void);
+
 typedef struct {
   float x;
   float y;
@@ -11,9 +13,11 @@ typedef struct {
   int direction;
 } Sprite;
 Sprite* sprite;
+
 void runCallback(void (*callback)()) {
   return callback();
 }
+
 void mainloop(void) {
   jsClearRect(0,0,getCanvasWidth(), getCanvasHeight());
   if(sprite->x + sprite->width == getCanvasWidth()) {
