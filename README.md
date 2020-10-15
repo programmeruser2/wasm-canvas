@@ -3,6 +3,8 @@
 
 A simple example of calling JavaScript functions from C to draw on the canvas.
 
+https://icositetrachoron-programmer.github.io/wasm-canvas/
+
 ## Imports Object
 ```
 const canvas = //... HTMLElement representing a canvas
