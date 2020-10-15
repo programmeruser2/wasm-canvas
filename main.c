@@ -28,6 +28,7 @@ void mainloop(void) {
   sprite->x += 50 * sprite->direction;
   jsFillRect(sprite->x, sprite->y, sprite->width, sprite->height);
 }
+
 int main(void) { 
   sprite->x = 0;
   sprite->y = 0;
