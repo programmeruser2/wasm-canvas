@@ -1,5 +1,5 @@
 # wasm-canvas
-A simple example of calling JavaScript functions from C.
+A simple example of calling JavaScript functions from C to draw on the canvas.
 
 ## Imports Object
 ```
