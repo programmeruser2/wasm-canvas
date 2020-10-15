@@ -4,7 +4,7 @@ A simple example of calling JavaScript functions from C to draw on the canvas.
 ## Imports Object
 ```
 const canvas = //... HTMLElement representing a canvas
-const ctx = //...Canvas2DRenderingContext
+const ctx = //... Canvas2DRenderingContext
 const imports = {
   env: {
     getCanvasWidth: function() { return canvas.width; },
