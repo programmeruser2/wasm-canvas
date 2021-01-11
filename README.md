@@ -1,3 +1,3 @@
-This is the repository that contains the files for the hosted webpage.
+This is the branch that contains the files for the hosted github page.
 
-https://icositetrachoron-programmer.github.io/wasm-canvas/
+https://programmeruser2.github.io/wasm-canvas/
