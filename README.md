@@ -3,7 +3,7 @@
 
 A simple example of calling JavaScript functions from C to draw on the canvas.
 
-https://programmeruser.github.io/wasm-canvas
+https://programmeruser2.github.io/wasm-canvas
 
 ## Imports Object
 ```
