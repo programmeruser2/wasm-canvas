@@ -1,9 +1,9 @@
 # wasm-canvas
-[![Run on repl.it](https://repl.it/badge/github/icositetrachoron-programmer/wasm-canvas)](https://repl.it/github/icositetrachoron-programmer/wasm-canvas)
+[![Run on repl.it](https://repl.it/badge/github/programmeruser2/wasm-canvas)](https://repl.it/github/programmeruser2/wasm-canvas)
 
 A simple example of calling JavaScript functions from C to draw on the canvas.
 
-https://icositetrachoron-programmer.github.io/wasm-canvas/
+https://programmeruser.github.io/wasm-canvas
 
 ## Imports Object
 ```
